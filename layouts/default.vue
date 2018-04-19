@@ -1,15 +1,18 @@
 <template>
   <div>
-    <my-navbar-cool></my-navbar-cool>
+    <navbar></navbar>
     <nuxt/>
+    <fdbfooter></fdbfooter>
   </div>
 </template>
 
 <script>
-  import MyNavbarCool from '@/components/Navbar.vue'
+  import Navbar from '@/components/Navbar.vue'
+  import fdbfooter from '@/components/Footer.vue'
   export default {
     components: {
-      MyNavbarCool
+      Navbar,
+      fdbfooter
     }
   }
 </script>
