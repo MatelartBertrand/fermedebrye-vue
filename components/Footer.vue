@@ -4,12 +4,8 @@
       <!-- Logo -->
       <nuxt-link class="" to="/"><img src="~assets/images/logo-fdb-circle-black-2.png" class="logo"></nuxt-link>
     </div>
-    <div class="footer-copyright hidden-sm hidden-xs">
-      Ce site est fait avec <i class="fa fa-heart"></i> par Bertrand Matelart
-    </div>
-    <div class="footer-links">
-      <a href="https://www.instagram.com/fermedebrye/" target="_blank"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.facebook.com/fermedebrye/" target="_blank"><i class="fa fa-facebook"></i></a>
+    <div class="footer-copyright">
+      Fermedebrye
     </div>
   </div>
 </template>

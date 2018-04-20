@@ -7,14 +7,14 @@
       <div class="fdb-navbar">
         <!-- navbar-left -->
         <div class="navbar-left">
-          <nuxt-link class="" to="/exploitation">Exploitation</nuxt-link>
           <nuxt-link class="" to="/luzerne">Luzerne</nuxt-link>
+          <nuxt-link class="" to="/caravane">Caravane</nuxt-link>
         </div>
         <!-- Logo -->
         <nuxt-link class="" to="/"><img src="~assets/images/logo-fdb-circle-black-2.png"></nuxt-link>
         <!-- navbar-right -->
         <div class="navbar-right">
-          <nuxt-link class="" to="/caravane">Caravane</nuxt-link>
+          <nuxt-link class="" to="/exploitation">Equipe</nuxt-link>
           <nuxt-link class="" to="/team">Contact</nuxt-link>
         </div>
       </div>
@@ -26,6 +26,7 @@
       <div class="fdb-navbar-mobil">
         <!-- navbar-left -->
         <div class="navbar-left-mobil">
+          <h5>Fermedebrye</h5>
         </div>
         <!-- navbar-right -->
         <div class="navbar-right-mobil">
@@ -42,9 +43,6 @@
       </div>
     </div>
 
-      <!-- Dropdown appearing on mobile only -->
-    <div class="navbar-wagon-item hidden-md hidden-lg">
-    </div>
   </div>
 </template>
 

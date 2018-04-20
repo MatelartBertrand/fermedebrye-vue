@@ -1,16 +1,17 @@
 .banner-homepage {
   color: white;
-  text-align: center;
+
   min-height: 400px;
   max-width: 1140px;
   background-size: cover !important;
   margin: 0 auto;
   display: flex;
+  flex-direcion: column;
   position: relative;
   align-items: center;
   justify-content: center;
   background-position: center;
-  border-radius: 7px;
+  border-radius: 3px;
 }
 .banner-homepage h1 {
   font-size: 45px;
