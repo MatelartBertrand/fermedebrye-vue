@@ -1,7 +1,6 @@
 <template>
   <section>
-
-    <section class="banner-homepage" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 50%), url('https://wallscover.com/images/caravan-wallpaper-1.jpg');">
+    <div class="banner-homepage" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 50%), url('https://wallscover.com/images/caravan-wallpaper-1.jpg');">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <h2 class="text-center">Fermedebrye</h2>
@@ -18,8 +17,8 @@
         </div>
         <br>
       </div>
-    </section>
-
+    </div>
+    <!-- Philisophie -->
     <div class="container">
       <div class="p-tb--5">
         <div class="fdb-why-vincent">
@@ -40,14 +39,7 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-    <!-- Feature -->
+    <!-- Service 1 -->
     <div class="container">
       <div class="p-tb--3">
         <div class="caravane-activity">
@@ -84,7 +76,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Service 2 -->
     <div class="container">
       <div class="p-tb--3">
         <div class="caravane-activity">
@@ -121,8 +113,7 @@
         </div>
       </div>
     </div>
-
-
+    <!-- Service3 -->
     <div class="container">
       <div class="p-tb--3">
         <div class="caravane-activity">
@@ -159,67 +150,77 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <h2 class="section-title-home" style="font-size:30px;">
-        <div class="section-title-home-content" style="background-color: white;">
-          Pourquoi ils reviennent?
-        </div>
-      </h2>
-      <div class="p-tb--5">
-        <div class="row">
-          <div class="col-xs-12 col-md-4">
-            <p class="text-center">“J’ai choisis de mettre mon véhicule ici car je peux dormir sur mes deux oreilles. L’endroit est sécurisé.”</p>
-            <p class="text-center"><strong> VINCENT DEKESLER</strong></p>
+    <!-- Testomonial -->
+    <div class="height--60">
+      <div class="container">
+        <h2 class="section-title-home" style="font-size:30px;">
+          <div class="section-title-home-content" style="background-color: white;">
+            Pourquoi ils reviennent?
           </div>
-          <div class="col-xs-12 col-md-4">
-            <p class="text-center">“Je pars rarement en vacances. Quand je m’apprête à prendre le large, je sais que je n’ai qu’une seule chose à faire. Ma caravane est prête à partir. Propre, en ordre, ...”</p>
-            <p class="text-center"><strong>PHILIPPE THOMAS</strong></p>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <p class="text-center">“L’accueil est très bon. Je peux téléphoner pour la moindre question. Je suis extrêmement bien reçu. ”</p>
-            <p class="text-center"><strong>LORIE VAN DEN BOSCH</strong></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <h2 class="section-title-home" style="font-size:30px;">
-        <div class="section-title-home-content" style="background-color: white;">
-          Un tarif simple
-        </div>
-      </h2>
-      <div class="p-tb--5">
-        <div class="row justify-content-center">
-          <div class="col-xs-12 col-md-6">
-            <h2 class="text-center">12€/Mois</h2>
-            <h2 class="text-center">X</h2>
-            <h2 class="text-center">Longueur du véhicule (m)</h2>
-            <p class="text-center m-t--3">Exemple: La location pour une caravane de 6,60m revient à 79,2€/mois</p>
+        </h2>
+        <div class="p-tb--5">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <p class="text-center">“J’ai choisis de mettre mon véhicule ici car je peux dormir sur mes deux oreilles. L’endroit est sécurisé.”</p>
+              <p class="text-center"><strong> VINCENT DEKESLER</strong></p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <p class="text-center">“Je pars rarement en vacances. Quand je m’apprête à prendre le large, je sais que je n’ai qu’une seule chose à faire. Ma caravane est prête à partir. Propre, en ordre, ...”</p>
+              <p class="text-center"><strong>PHILIPPE THOMAS</strong></p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <p class="text-center">“L’accueil est très bon. Je peux téléphoner pour la moindre question. Je suis extrêmement bien reçu. ”</p>
+              <p class="text-center"><strong>LORIE VAN DEN BOSCH</strong></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <h2 class="section-title-home" style="font-size:30px;">
-        <div class="section-title-home-content" style="background-color: white;">
-          Contactez-moi
-        </div>
-      </h2>
-      <div class="p-tb--5">
-        <div class="row justify-content-center">
-          <div class="col-xs-12 col-md-6">
-            <h2 class="text-center">0475/71.89.21</h2>
-            <h2 class="text-center">info@fermedebrye.com</h2>
+    <!-- Tarif -->
+    <div class="height--60">
+      <div class="container">
+        <h2 class="section-title-home" style="font-size:30px;">
+          <div class="section-title-home-content" style="background-color: white;">
+            Un tarif simple
+          </div>
+        </h2>
+        <div class="p-tb--5">
+          <div class="row justify-content-center">
+            <div class="col-xs-12 col-md-6">
+              <h2 class="text-center">12€/Mois</h2>
+              <h2 class="text-center">X</h2>
+              <h2 class="text-center">Longueur du véhicule (m)</h2>
+              <p class="text-center m-t--3">Exemple: La location pour une caravane de 6,60m revient à 79,2€/mois</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
+    <!-- CONTACT -->
+    <div class="height--80">
+      <div class="container">
+        <h2 class="section-title-home" style="font-size:30px;">
+          <div class="section-title-home-content" style="background-color: white;">
+            Contactez-moi
+          </div>
+        </h2>
+        <div class="p-tb--5">
+          <div class="fdb-why-vincent">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-xs-12 col-md-4">
+                <div class="image m-b--1">
+                  <img src="~assets/images/vincent.jpg" class="linear-gradient">
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <h2 class="text-center">0475/71.89.21</h2>
+                <h2 class="text-center">info@fermedebrye.com</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 

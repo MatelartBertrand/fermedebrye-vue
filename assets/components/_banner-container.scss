@@ -45,3 +45,19 @@
 .text-red {
   color: $red;
 }
+
+
+.banner-top {
+  color: white;
+  min-height: 400px;
+  max-width: 1140px;
+  background-size: cover !important;
+  margin: 0 auto;
+  display: flex;
+  flex-direcion: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-position: top;
+  border-radius: 3px;
+}

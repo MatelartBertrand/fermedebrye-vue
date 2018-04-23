@@ -33,6 +33,13 @@
   align-items: center;
 }
 
+.height--60 {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .caravane-icon {
   img {
@@ -42,3 +49,16 @@
   }
 }
 
+.fdb-contact-vincent {
+  width: 100%;
+  .image {
+    max-height: 500px;
+    overflow:hidden;
+    img {
+      width: 100%;
+      background-size: cover !important;
+      background-position: bottom;
+      border-radius: 50%;
+    }
+  }
+}
