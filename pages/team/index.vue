@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div class="banner-top" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 50%), url('https://scontent.fbru1-1.fna.fbcdn.net/v/t1.0-9/18527797_10210543412635456_2339553496887394063_n.jpg?_nc_cat=0&oh=4bea610b26185daa0038b07e5c26d9bc&oe=5B62EEAD');">
+    <div class="banner-top" :style="`background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(${loadImage('etable.png')})`">
       <div class="container">
         <div class="row justify-content-center align-items-center">
-          <h2 class="text-center p-t--5">Fermedebrye</h2>
+          <h2 class="text-center">Fermedebrye</h2>
         </div>
         <div class="row justify-content-center align-items-center">
           <h1 class="text-center">Qui fait quoi et pourquoi? </h1>
@@ -15,31 +15,48 @@
 
     <div class="container m-t--5">
       <div class="row">
-        <div class="fdb-activity">
-          <div class="col-xs-12 col-md-4">
-            <div class="image">
-              <img src="~assets/images/bertrand.png">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card-team" :style="`background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(${loadImage('vincent.jpg')})`">
+            <div class="card-category bg-green">0495 46 87 97</div>
+            <div class="card-description">
+              <p>vincent@fermedebrye.com</p>
+              <h2>Vincent Matelart</h2>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="image">
-              <img src="~assets/images/bertrand.png">
+          <p class="p-t--2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card-team" :style="`background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(${loadImage('laurence.jpg')})`">
+            <div class="card-category bg-green">0474 10 51 44</div>
+            <div class="card-description">
+              <p>laurence@fermedebrye.com</p>
+              <h2>Laurence Matelart</h2>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="image">
-              <img src="~assets/images/bertrand.png">
+          <p class="p-t--2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="card-team" :style="`background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(${loadImage('nadine.jpg')})`">
+            <div class="card-category bg-green">0475 71 89 21</div>
+            <div class="card-description">
+              <p>nadine@fermedebrye.com</p>
+              <h2>Nadine De Bruyne</h2>
             </div>
           </div>
+          <p class="p-t--2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
         </div>
       </div>
     </div>
-
   </section>
 </template>
 
 <script>
   export default {
+    methods: {
+      loadImage (imageName) {
+        return require(`~/assets/images/${imageName}`)
+      }
+    }
 
   }
 </script>
