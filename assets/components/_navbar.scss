@@ -1,11 +1,11 @@
 .fdb-navbar {
   transition: all 0.3s ease;
   height: 100px;
-  padding: 0px 30px;
+  // padding: 0px 30px;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .fdb-navbar a {
@@ -22,7 +22,7 @@
 
 
 .fdb-navbar img {
-  height: 50px;
+  height: 40px;
 }
 
 .fdb-navbar-mobil {
@@ -40,5 +40,8 @@
 
 
 .navbar-right-mobil {
+  img {
+    height: 40px;
+  }
 
 }

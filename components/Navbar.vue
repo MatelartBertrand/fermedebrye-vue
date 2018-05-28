@@ -5,18 +5,15 @@
 
     <div class="  d-none d-sm-block ">
       <div class="fdb-navbar">
+        <!-- Logo -->
+        <nuxt-link class="" to="/"><img src="~assets/images/logo-fdb-circle-black-2.png"></nuxt-link>
         <!-- navbar-left -->
         <div class="navbar-left">
           <nuxt-link class="" to="/luzerne">Luzerne</nuxt-link>
           <nuxt-link class="" to="/caravane">Caravane</nuxt-link>
-        </div>
-        <!-- Logo -->
-        <nuxt-link class="" to="/"><img src="~assets/images/logo-fdb-circle-black-2.png"></nuxt-link>
-        <!-- navbar-right -->
-        <div class="navbar-right">
-          <nuxt-link class="" to="/exploitation">Equipe</nuxt-link>
           <nuxt-link class="" to="/team">Contact</nuxt-link>
         </div>
+        <!-- navbar-right -->
       </div>
     </div>
 
@@ -41,6 +38,13 @@
           </div>
         </div>
       </div>
+
+      <div class="fdb-subnavbar-mobil">
+        <!-- Logo -->
+        <nuxt-link class="" to="/"><img src="~assets/images/logo-fdb-circle-black-2.png"></nuxt-link>
+      </div>
+
+
     </div>
 
   </div>
